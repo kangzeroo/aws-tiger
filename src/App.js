@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import paw_tiger from './paw_tiger_large.svg';
 import './App.css';
 
 class App extends Component {
@@ -7,17 +7,17 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
+          <img src={paw_tiger} className="App-logo" alt="logo" />
+          <h1>
+            AWS Tiger Demo
+          </h1>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://medium.com/@kangzeroo/the-complete-aws-boilerplate-f8ce812f356b"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Learn AWS Cloud for Startups
           </a>
         </header>
       </div>
